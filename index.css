@@ -12,3 +12,62 @@
   .textStyle {
 font-family: Arial;
   }
+  .inputStyle2Hover:hover{
+    background: rgb(159, 191, 242);
+    border-color: grey;
+  }
+  .titleC{
+    text-align: center;
+  }
+.div1{
+width: 200px;
+height: 200px;
+background-color: red;
+}
+.div2{
+width: 200px;
+height: 200px;
+background-color: blue;
+}
+.div3{
+width: 200px;
+height: 200px;
+background-color: yellow;
+}
+.div4{
+width: 200px;
+height: 200px;
+background-color: beige;
+}
+.divDisplay{
+ display: flex;
+ gap: 10px;
+ margin-bottom: 1rem;
+
+}
+.divBetween{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+   }
+
+   .divevenly{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+   }
+
+   .divcenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+   }
+
+   .divaround{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+   }
+   h2{
+    text-align: center;
+   }
