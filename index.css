@@ -1,37 +1,14 @@
-.titre1 {
-    color: red;
+.inputStyle1 {
+    background: aliceblue;
+    border: none;
 }
-.titre2 {
-    color: blue;
-}
-
-.sousTitre1 {
-    color: yellow;
-}
-.sousTitre2 {
-    color: beige;
-}
-.sizeTitre1 {
-    font-size: 20px;
-}
-.sizeTitre2 {
-    font-size: 2rem;
-}
-.sizeText1 {
-    font-weight: bold;
-}
-.sizeText2 {
-font-weight: 100;
-}
-.fontSpan1 {
-    font-family: 'Arial';
-}
-.fontSpan2 {
-    font-family: 'comic sans ms';
-}
-.buttonStyle1 {
-    border-radius: 10px;
-}
-.buttonStyle2 {
-border-radius: 10%;
-}
+.inputStyle2 {
+    background: lightblue;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  .textStyle {
+font-family: Arial;
+  }
