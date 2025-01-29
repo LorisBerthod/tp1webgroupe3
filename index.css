@@ -1,73 +1,200 @@
-.inputStyle1 {
-    background: aliceblue;
-    border: none;
-}
-.inputStyle2 {
-    background: lightblue;
-    border-color: grey;
-    border-width: 1px;
-    border-radius: 4px;
-    margin-top: 20px;
-  }
-  .textStyle {
-font-family: Arial;
-  }
-  .inputStyle2Hover:hover{
-    background: rgb(159, 191, 242);
-    border-color: grey;
-  }
-  .titleC{
-    text-align: center;
-  }
-.div1{
-width: 200px;
-height: 200px;
-background-color: red;
-}
-.div2{
-width: 200px;
-height: 200px;
-background-color: blue;
-}
-.div3{
-width: 200px;
-height: 200px;
-background-color: yellow;
-}
-.div4{
-width: 200px;
-height: 200px;
-background-color: beige;
-}
-.divDisplay{
- display: flex;
- gap: 10px;
- margin-bottom: 1rem;
-
-}
-.divBetween{
+nav {
+    margin: 0;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
-   }
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    position:absolute;
+    
+}
 
-   .divevenly{
+nav ul {
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 1rem;
-   }
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    padding: 7px 15px;
+    list-style: none;
+}
+nav li a:hover {
+    color: white;
+}
+nav li.achat a {
+    color: #d33bfd;
+    border: 1px solid #d33bfd;
+    border-radius: 5px;
+ 
+}
+nav li.achat a:hover {
+    color: white;
+}
 
-   .divcenter{
+nav h1 {
+    all: unset;
+    font-size: 1.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    color: #d33bfd;
+    
+}
+
+.image-presentation {
+    position: relative; 
     display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-   }
+    justify-content: flex-end;
+    margin-right: 3rem;
+    height: 400px;
+}
 
-   .divaround{
+.header {
+    padding-top: 80px;
+    background: linear-gradient(#13181d, #20212e, #341b47);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+.suit{
+    background-color: #13181d;
+    position: relative;
+    z-index: 1;
+    height: 70vh;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.suitPresentation {
+    position: absolute; 
+    top: 40%; 
+    left: 5%; 
+    transform: translate(0, -50%); 
+    color: white;
+    z-index: 2; 
+}
+.suitPresentation h1 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.suitPresentation p {
+    
+    width:50%;
+    font-weight: 300;
+    color: #e9e9e9;
+}
+.suitPresentation button{
+    padding: 17px 20px;
+    border: 1px solid #d33bfd;
+    background: black;
+    color: #d33bfd;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.suitPresentation button:hover {
+    background: #d33bfd;
+    transition: 0.5s ease-in-out;
+    color: white;
+    border: 1px solid #d33bfd;
+
+}
+
+.presentation {
+    position: absolute;  
+    top: 65%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    color: white;  
+    z-index: 10;  
+    left: 5%; 
+    transform: translate(0, -50%);
+}
+.presentation h1 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+.presentation p {
+    
+    width:50%;
+    font-weight: 300;
+    color: #e9e9e9;
+}
+.presentation button{
+    padding: 17px 20px;
+    border: 1px solid #d33bfd;
+    background: #d33bfd;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.presentation button:hover {
+    background: black;
+    transition: 0.5s ease-in-out;
+    color: #d33bfd;
+    border: 1px solid #d33bfd;
+}
+
+.small-images {
+    display: flex;  
+    flex-direction: row;
+    gap: 10px; 
+}
+.small img{
+    margin-top: 20px;
+margin-inline: 5px;
+    width: 120px;
+    background-color: #33314d;
+    border-radius: 20px; 
+}
+.small img:hover {
+    transition: 0.5s ease-in-out;
+    filter: brightness(50%);
+}
+.footer {
+    background-color: #13181d; /* Fond noir pour le footer */
+    color: white; /* Texte en blanc */
+    padding: 2rem 0; /* Espacement autour du footer */
+}
+
+footer {
     display: flex;
     justify-content: space-around;
+}
+
+
+
+.column h3 {
+    color: #d33bfd; /* Titres en violet */
+    font-size: 1.2rem;
     margin-bottom: 1rem;
-   }
-   h2{
-    text-align: center;
-   }
+}
+
+.column p {
+    color: #ccc;
+
+    margin: 0.5rem 0;
+    font-weight: 300;
+}
+
+.column p:hover {
+    transition: 0.5s ease-in-out;
+    color: white;
+    cursor: pointer;
+}
+
