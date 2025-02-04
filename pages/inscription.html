@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'inscription</title>
+    <link rel="stylesheet" href="../index.css"> 
+</head>
+<body>
+
+    <div class="header">
+        <div class="navbar">
+            <h1>HEADBOOST</h1>
+            <button class="burger" onclick="toggleMenu()">☰ </button>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="jeux.html">Mes jeux</a></li>
+                <button><a href="connexion.html">Connexion</a></button>
+            </ul>
+        </div>
+        <div class="section-connexion">
+            <div class="connexion">
+                <h1>Crée ton compte</h1>
+                <form id="inscriptionForm">
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email" placeholder="Entrez votre e-mail" required>
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+                    <div id="error-message" style="color: red; display: none;"></div>
+                    <button type="submit">S'inscrire</button>
+                    <p>Déjà un compte ? <a href="connexion.html">Connexion</a></p>
+                </form> 
+        </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footermaman">
+            <li>Accueil </li>
+            <li>contact@headboost.fr</li>
+            <li>Contactez-nous</li>
+            <li>Comment acheter</li>
+        </div>
+
+        <div class="footermaman">
+            <li>Recrutement</li>
+            <li>business@headboost.fr</li>
+            <li>Postuler en ligne</li>
+            <li>Comment faire ?</li>
+        </div>
+
+        <div class="footermaman">
+            <li>Réseaux</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+        </div>
+    </div>
+    <script src="../index.js"></script> 
+</body>
+</html>
