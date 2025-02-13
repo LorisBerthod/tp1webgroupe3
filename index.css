@@ -59,6 +59,8 @@ a{
 .divgauche img{
     width: 150px;
     height: 150px;
+    cursor: pointer;
+
 }
 
 .divdroite img{
@@ -310,5 +312,6 @@ li{
 }
 .games img {
     width: 100px;
+    cursor: pointer;
 
 }
